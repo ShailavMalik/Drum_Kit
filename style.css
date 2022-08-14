@@ -88,7 +88,7 @@ footer {
     .drum-kit {
         margin-left: 20vw;
         margin-right: 20vw;
-        margin-top:65px;
+        margin-top: 65px;
     }
 
     h1 {
@@ -147,10 +147,10 @@ footer {
         font-size: 45px;
     }
 
-    footer
-    {
+    footer {
         font-size: 16px;
     }
+
 }
 
 @media screen and (max-width:464px) {
@@ -187,8 +187,52 @@ footer {
         margin-right: 20px;
     }
 
-    footer
-    {
+    footer {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-height:633px)
+{
+    .drum {
+        font-size: 60px;
+        line-height: normal;
+        width: 90px;
+        height: 90px;
+        margin: 5px;
+
+    }
+
+    .drum-kit {
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-height:565px)
+{
+    .drum {
+        font-size: 50px;
+        line-height: normal;
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+
+    }
+
+    .drum-kit {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top:60px;
+
+    }
+
+    h1 {
+        font-size: 40px;
     }
 }
